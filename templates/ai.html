@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url("static/anhnen.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            input {
+                background: none;
+                border: none;
+                font-size: 40px;
+            }
+            button {
+                background: none;
+                border: none;
+                font-size: 40px;
+            }
+            h1 {
+                font-family: arial;
+                text-align: center;
+                font-size: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>{{noidung}}</h1>
+        <form action="/ai">
+            <input type="text" name="tin_nhan" placeholder="Nhập tin nhắn">
+            <button>Gửi</button>
+        </form>
+    </body>
+</html>
